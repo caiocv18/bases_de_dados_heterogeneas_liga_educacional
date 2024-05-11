@@ -1,0 +1,36 @@
+# Arquivos de saída do compilador
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# Diretórios de saída do compilador
+Debug/
+Release/
+x64/
+x86/
+build/
+dist/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de projeto do CLion
+.idea/
+cmake-build-debug/
+
+# Arquivos de projeto do CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
