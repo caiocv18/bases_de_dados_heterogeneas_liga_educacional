@@ -9,7 +9,7 @@ union Dados {
     char* texto;
 };
 
-int main() {
+int second_main() {
     union Dados dados;
 
     dados.inteiro = 42;
