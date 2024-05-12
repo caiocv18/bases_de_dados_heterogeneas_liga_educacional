@@ -7,4 +7,5 @@ add_executable(bases_de_dados_heterogeneas_liga_educacional main.c
         sample_union.c
         data_types.c
         control_structures.c
+        functions_1.c
 )

@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int main() {
+int fourth_main() {
     // Introdução às estruturas de controle em C
     printf("Estruturas de controle em C são essenciais para direcionar o fluxo de execução de programas.\n");
 
