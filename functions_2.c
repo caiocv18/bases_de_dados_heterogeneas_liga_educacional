@@ -6,7 +6,7 @@
 // Declaração de função com parâmetros e retorno
 int soma(int a, int b);
 
-int main() {
+int sixth_main() {
     int resultado = soma(5, 3);
     printf("O resultado da soma é: %d\n", resultado);
     return 0;
