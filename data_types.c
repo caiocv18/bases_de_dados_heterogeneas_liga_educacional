@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int main() {
+int third_main() {
     // Demonstração de tipos primitivos
     int idade = 30;
     char letra = 'A';
