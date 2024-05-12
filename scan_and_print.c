@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 
-int main() {
+int seventh_main() {
     int idade;
     printf("Digite sua idade: ");
     scanf("%d", &idade);  // Lê a idade do usuário
