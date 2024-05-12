@@ -11,4 +11,5 @@ add_executable(bases_de_dados_heterogeneas_liga_educacional main.c
         functions_2.c
         scan_and_print.c
         arrays.c
+        sample_struct.c
 )

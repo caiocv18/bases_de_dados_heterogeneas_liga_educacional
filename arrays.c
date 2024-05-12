@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 
-int main()
+int eighth_main()
 {
     // Array de inteiros
     int numeros[5] = {10, 20, 30, 40, 50};
