@@ -7,7 +7,7 @@
 // Declaração de função
 void cumprimentar();
 
-int main() {
+int fifth_main() {
     printf("Iniciando o programa...\n");
     cumprimentar();  // Chamada de função
     return 0;
