@@ -10,7 +10,7 @@ struct Pessoa {
     float altura;
 };
 
-int main() {
+int last_syntax_main() {
     struct Pessoa pessoa = {"João Silva", 30, 1.75};
 
     printf("Nome: %s\n", pessoa.nome);

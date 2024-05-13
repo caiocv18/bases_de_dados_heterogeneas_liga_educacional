@@ -3,13 +3,14 @@ project(bases_de_dados_heterogeneas_liga_educacional C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(bases_de_dados_heterogeneas_liga_educacional main.c
-        sample_union.c
-        data_types.c
-        control_structures.c
-        functions_1.c
-        functions_2.c
-        scan_and_print.c
-        arrays.c
-        sample_struct.c
+add_executable(bases_de_dados_heterogeneas_liga_educacional syntax/main.c
+        syntax/sample_union.c
+        syntax/data_types.c
+        syntax/control_structures.c
+        syntax/functions_1.c
+        syntax/functions_2.c
+        syntax/scan_and_print.c
+        syntax/arrays.c
+        syntax/sample_struct.c
+        recursion/simple_sample.c
 )
