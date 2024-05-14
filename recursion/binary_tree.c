@@ -31,7 +31,7 @@ void inorder_traversal(struct Node* node) {
     inorder_traversal(node->right);  // Percorre a subárvore direita
 }
 
-int main() {
+int binary_tree_main() {
     // Criando nós da árvore
     struct Node* root = create_node(1);
     root->left = create_node(2);
