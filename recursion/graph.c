@@ -21,7 +21,7 @@ struct Graph {
 };
 
 // Função para criar um novo nó da lista de adjacências
-struct Node* createNode(int v) {
+struct Node* create_node_graph(int v) {
     struct Node* newNode = malloc(sizeof(struct Node));
     newNode->vertex = v;
     newNode->next = NULL;
@@ -29,7 +29,7 @@ struct Node* createNode(int v) {
 }
 
 // Função para criar um grafo
-struct Graph* createGraph(int vertices) {
+struct Graph* create_graph(int vertices) {
     struct Graph* graph = malloc(sizeof(struct Graph));
     graph->numVertices = vertices;
 
@@ -42,14 +42,14 @@ struct Graph* createGraph(int vertices) {
 }
 
 // Função para adicionar aresta
-void addEdge(struct Graph* graph, int src, int dest) {
+void add_edge(struct Graph* graph, int src, int dest) {
     // Adiciona aresta de src para dest
-    struct Node* newNode = createNode(dest);
+    struct Node* newNode = create_node_graph(dest);
     newNode->next = graph->adjLists[src];
     graph->adjLists[src] = newNode;
 
     // Adiciona aresta de dest para src (grafo não direcionado)
-    newNode = createNode(src);
+    newNode = create_node_graph(src);
     newNode->next = graph->adjLists[dest];
     graph->adjLists[dest] = newNode;
 }
@@ -72,16 +72,16 @@ void DFS(struct Graph* graph, int vertex) {
     }
 }
 
-int main() {
-    struct Graph* graph = createGraph(6);
+int graph_main() {
+    struct Graph* graph = create_graph(6);
 
-    addEdge(graph, 0, 1);
-    addEdge(graph, 0, 2);
-    addEdge(graph, 1, 2);
-    addEdge(graph, 1, 3);
-    addEdge(graph, 2, 4);
-    addEdge(graph, 3, 4);
-    addEdge(graph, 3, 5);
+    add_edge(graph, 0, 1);
+    add_edge(graph, 0, 2);
+    add_edge(graph, 1, 2);
+    add_edge(graph, 1, 3);
+    add_edge(graph, 2, 4);
+    add_edge(graph, 3, 4);
+    add_edge(graph, 3, 5);
 
     printf("Busca em profundidade (DFS) a partir do vértice 0:\n");
     DFS(graph, 0);
