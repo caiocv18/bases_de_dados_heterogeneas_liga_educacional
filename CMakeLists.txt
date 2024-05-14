@@ -13,4 +13,5 @@ add_executable(bases_de_dados_heterogeneas_liga_educacional syntax/main.c
         syntax/arrays.c
         syntax/sample_struct.c
         recursion/simple_sample.c
+        recursion/fibonacci.c
 )

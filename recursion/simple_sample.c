@@ -14,7 +14,7 @@ void print_numbers(int n) {
     printf("%d\n", n);
 }
 
-int main() {
+int recursion_main() {
     print_numbers(5);
     return 0;
 }
