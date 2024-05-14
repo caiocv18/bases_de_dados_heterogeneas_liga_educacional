@@ -12,7 +12,7 @@ int fibonacci(int n) {
     return fibonacci(n-1) + fibonacci(n-2);
 }
 
-int main() {
+int fibonacci_main() {
     int n = 10; // Número de termos da sequência
     printf("Sequência de Fibonacci até o %d-ésimo termo:\n", n);
     for (int i = 0; i < n; i++) {
