@@ -17,4 +17,5 @@ add_executable(bases_de_dados_heterogeneas_liga_educacional syntax/main.c
         recursion/binary_tree.c
         recursion/graph.c
         recursion/linked_list.c
+        pointers/understanding_pointers.c
 )

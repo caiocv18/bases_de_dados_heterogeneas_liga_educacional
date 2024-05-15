@@ -60,7 +60,7 @@ struct Node* delete_node(struct Node* head, int key) {
     return head;
 }
 
-int main() {
+int linked_list_main() {
     struct Node* head = NULL;
 
     // Inserir elementos na lista
