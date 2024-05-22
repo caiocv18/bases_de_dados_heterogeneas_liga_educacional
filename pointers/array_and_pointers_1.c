@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main_array_and_pointers_1() {
     int arr[5] = {1, 2, 3, 4, 5};
     int *ptr = arr; // ptr aponta para o primeiro elemento de arr
 
