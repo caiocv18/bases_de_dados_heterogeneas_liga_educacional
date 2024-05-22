@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main_understanding_pointer_arithmetic() {
     int arr[5] = {10, 20, 30, 40, 50};
     int *ptr = arr;
 
