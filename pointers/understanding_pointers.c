@@ -6,7 +6,7 @@
 
 // Exemplo de uso de ponteiros
 
-int main() {
+int main_pointers_1() {
     int x = 10;
     int* ptr = &x;
 
