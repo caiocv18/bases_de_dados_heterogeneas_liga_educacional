@@ -12,7 +12,7 @@ void safeModify(int *ptr) {
     }
 }
 
-int main() {
+int main_considerations_about_passing_pointers() {
     int b = 0;
     safeModify(&b);
     printf("Valor de b após modificação segura: %d\n", b);
