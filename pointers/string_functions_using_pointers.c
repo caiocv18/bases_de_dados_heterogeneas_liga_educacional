@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main_string_functions_using_pointers() {
     char src[] = "Ponteiros";
     char dest[20];
 
