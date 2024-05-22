@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main_manipulating_strings_with_pointers() {
     char str[] = "Linguagem C";
     char *ptr = str;
 
