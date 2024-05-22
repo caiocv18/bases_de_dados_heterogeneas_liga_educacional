@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main_addition_and_subtraction_with_pointers() {
     int arr[5] = {100, 200, 300, 400, 500};
     int *ptr = arr;
 

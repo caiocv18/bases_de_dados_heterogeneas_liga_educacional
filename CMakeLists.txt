@@ -23,4 +23,5 @@ add_executable(bases_de_dados_heterogeneas_liga_educacional syntax/main.c
         pointers/understanding_pointer_arithmetic.c
         pointers/increment_and_decrement_of_pointers.c
         pointers/addition_and_subtraction_with_pointers.c
+        pointers/practical_effects_of_pointer_arithmetic.c
 )
