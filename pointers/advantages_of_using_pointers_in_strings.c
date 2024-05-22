@@ -9,7 +9,7 @@ void concatStrings(char *dest, const char *src) {
     while ((*dest++ = *src++));
 }
 
-int main() {
+int main_advantages_of_using_pointers_in_strings() {
     char str1[20] = "Hello";
     char str2[] = " World";
 
