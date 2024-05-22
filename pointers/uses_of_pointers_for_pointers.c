@@ -19,7 +19,7 @@ void freeArray(int ***array, int rows) {
     free(*array);
 }
 
-int main() {
+int main_uses_of_pointers_for_pointers() {
     int **array;
     int rows = 3, cols = 4;
 

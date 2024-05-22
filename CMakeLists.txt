@@ -32,4 +32,5 @@ add_executable(bases_de_dados_heterogeneas_liga_educacional syntax/main.c
         pointers/considerations_about_passing_pointers.c
         pointers/concept_of_pointers_to_pointers.c
         pointers/uses_of_pointers_for_pointers.c
+        pointers/benefits_of_pointers_for_pointers.c
 )
