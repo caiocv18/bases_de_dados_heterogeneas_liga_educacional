@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main_increment_and_decrement_of_pointers() {
     char str[] = "Hello, World!";
     char *ptr = str;
 
