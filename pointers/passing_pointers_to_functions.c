@@ -8,7 +8,7 @@ void modifyValue(int *ptr) {
     *ptr = 20; // Modifica o valor da variável apontada pelo ponteiro
 }
 
-int main() {
+int main_passing_pointers_to_functions() {
     int a = 10;
     printf("Valor de a antes da modificação: %d\n", a);
 
