@@ -9,7 +9,7 @@ void modifyPointer(int **pptr) {
     *pptr = &b;
 }
 
-int main() {
+int main_benefits_of_pointers_for_pointers() {
     int a = 10;
     int *ptr = &a;
 
