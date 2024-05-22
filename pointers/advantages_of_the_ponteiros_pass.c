@@ -14,7 +14,7 @@ void movePoint(Point *p, int deltaX, int deltaY) {
     p->y += deltaY; // Atualiza a coordenada y
 }
 
-int main() {
+int main_advantages_of_the_ponteiros_pass() {
     Point pt = {10, 20};
     printf("Ponto inicial: (%d, %d)\n", pt.x, pt.y);
 

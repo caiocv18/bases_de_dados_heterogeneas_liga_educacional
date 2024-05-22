@@ -29,4 +29,5 @@ add_executable(bases_de_dados_heterogeneas_liga_educacional syntax/main.c
         pointers/advantages_of_using_pointers_in_strings.c
         pointers/passing_pointers_to_functions.c
         pointers/advantages_of_the_ponteiros_pass.c
+        pointers/considerations_about_passing_pointers.c
 )
