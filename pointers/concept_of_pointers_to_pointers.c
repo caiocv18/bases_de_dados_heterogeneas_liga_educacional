@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main_concept_of_pointers_to_pointers() {
     int a = 10;
     int *ptr = &a;      // Ponteiro para 'a'
     int **pptr = &ptr;  // Ponteiro para ponteiro
