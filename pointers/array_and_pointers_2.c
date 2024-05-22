@@ -13,7 +13,7 @@ void reverseArray(int *ptr, int size) {
     }
 }
 
-int main() {
+int main_array_with_pointers_2() {
     int arr[5] = {1, 2, 3, 4, 5};
     reverseArray(arr, 5);
 
