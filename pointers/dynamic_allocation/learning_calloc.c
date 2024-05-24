@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main_learning_calloc() {
     int *ptr = (int *)calloc(5, sizeof(int)); // Aloca memória para 5 inteiros e inicializa com zero
 
     if (ptr == NULL) {

@@ -35,4 +35,5 @@ add_executable(bases_de_dados_heterogeneas_liga_educacional syntax/main.c
         pointers/benefits_of_pointers_for_pointers.c
         pointers/dynamic_allocation/learning_malloc.c
         pointers/dynamic_allocation/learning_calloc.c
+        pointers/dynamic_allocation/learning_realloc.c
 )
