@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main_learning_free() {
     int *ptr = malloc(5 * sizeof(int)); // Aloca memória para 5 inteiros
 
     if (ptr == NULL) {
