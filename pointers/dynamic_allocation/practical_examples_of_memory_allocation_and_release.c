@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main_practical_examples_of_memory_allocation_and_release() {
     int n;
     printf("Digite o número de elementos: ");
     scanf("%d", &n);
