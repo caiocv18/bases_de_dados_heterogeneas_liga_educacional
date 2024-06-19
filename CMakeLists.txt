@@ -42,4 +42,5 @@ add_executable(bases_de_dados_heterogeneas_liga_educacional syntax/main.c
         phase_2/list.c
         phase_2/stack.c
         phase_2/queue.c
+        phase_2/linear_list.c
 )

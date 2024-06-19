@@ -56,7 +56,7 @@ int dequeue(struct Queue *q) {
     return dequeued;
 }
 
-int main() {
+int main_queue() {
     struct Queue *q = createQueue();
 
     enqueue(q, 10);
