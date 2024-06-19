@@ -12,7 +12,7 @@ struct Node {
 };
 
 // Função para adicionar um novo nó no início da lista
-void push(struct Node **head_ref, int new_data) {
+void push_list(struct Node **head_ref, int new_data) {
     struct Node *new_node = (struct Node *)malloc(sizeof(struct Node));
     new_node->data = new_data;
     new_node->next = (*head_ref);
@@ -39,9 +39,9 @@ void printList(struct Node *node) {
 int main_list() {
     struct Node *head = NULL;
 
-    push(&head, 1);
-    push(&head, 2);
-    push(&head, 3);
+    push_list(&head, 1);
+    push_list(&head, 2);
+    push_list(&head, 3);
 
     printf("Lista encadeada: ");
     printList(head);

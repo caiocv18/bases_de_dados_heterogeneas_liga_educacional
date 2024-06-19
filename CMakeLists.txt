@@ -40,4 +40,5 @@ add_executable(bases_de_dados_heterogeneas_liga_educacional syntax/main.c
         phase_1/pointers/dynamic_allocation/practical_examples_of_memory_allocation_and_release.c
         phase_1/study_case/study_case.c
         phase_2/list.c
+        phase_2/stack.c
 )
