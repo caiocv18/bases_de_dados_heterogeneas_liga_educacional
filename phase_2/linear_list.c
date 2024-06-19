@@ -54,7 +54,7 @@ void printLinearList(LinearList *list) {
     printf("\n");
 }
 
-int main() {
+int main_linear_list() {
     LinearList list;
     initLinearList(&list);
 
