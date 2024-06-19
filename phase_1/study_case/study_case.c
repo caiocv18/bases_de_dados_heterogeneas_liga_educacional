@@ -55,7 +55,7 @@ void buscar_cliente(Cliente clientes[], int num_clientes, char nome[]) {
     printf("Cliente não encontrado.\n");
 }
 
-int main() {
+int main_study_case() {
     Cliente clientes[100];
     int num_clientes = 0;
     int opcao;
