@@ -50,7 +50,7 @@ int peek(struct StackNode *root) {
     return root->data;
 }
 
-int main() {
+int main_stack() {
     struct StackNode *root = NULL;
 
     push(&root, 10);
