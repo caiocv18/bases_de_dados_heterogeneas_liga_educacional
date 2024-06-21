@@ -21,7 +21,7 @@ void bubbleSort(int arr[], int n) {
    }
 }
 
-int main() {
+int main_buble_sort() {
    // Inicializa um array com elementos desordenados
    int arr[] = { 64, 34, 25, 12, 22, 11, 90 };
    // Calcula o tamanho do array
