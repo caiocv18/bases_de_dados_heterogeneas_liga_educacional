@@ -80,7 +80,7 @@ void insertAtEnd3(struct Node** start, int data) {
     new_node->prev = last;
 }
 
-int main() {
+int main_bubble_sort_doubly_linked_list() {
     struct Node *start = newNode3(64);
     insertAtEnd3(&start, 34);
     insertAtEnd3(&start, 25);
