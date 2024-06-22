@@ -44,7 +44,7 @@ void print_array_quick_sort(int arr[], int size) {
 }
 
 // Programa principal para testar as funções acima
-int main() {
+int main_quick_sort() {
     int arr[] = {10, 7, 8, 9, 1, 5};
     int n = sizeof(arr) / sizeof(arr[0]);
     quick_sort(arr, 0, n - 1);
