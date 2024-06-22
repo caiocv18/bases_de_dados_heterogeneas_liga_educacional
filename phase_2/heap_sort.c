@@ -57,7 +57,7 @@ void print_array_heap(int arr[], int n) {
 }
 
 // Programa principal
-int main() {
+int main_heap() {
     int arr[] = {12, 11, 13, 5, 6, 7};
     int n = sizeof(arr)/sizeof(arr[0]);
 
