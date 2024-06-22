@@ -34,7 +34,7 @@ void print_array_shell(int arr[], int n) {
 }
 
 // Função principal para testar a função acima
-int main() {
+int main_shell() {
     int arr[] = {12, 34, 54, 2, 3};
     int n = sizeof(arr)/sizeof(arr[0]);
 
