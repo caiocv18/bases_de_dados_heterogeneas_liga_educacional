@@ -74,7 +74,7 @@ void print_array_tim_sort(int arr[], int n) {
     printf("\n");
 }
 
-int main() {
+int main_tim_sort() {
     int arr[] = {5, 21, 7, 23, 19};
     int n = sizeof(arr)/sizeof(arr[0]);
     printf("Lista antes da ordenação: \n");
