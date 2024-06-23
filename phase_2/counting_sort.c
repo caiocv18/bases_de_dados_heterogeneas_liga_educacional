@@ -47,7 +47,7 @@ void print_array_counting_sort(int array[], int size) {
     for (int i = 0; i < size; i++) {
         printf("%d ", array[i]);
     }
-    printf("\\n");
+    printf("\n");
 }
 
 // Programa principal para testar a função acima
