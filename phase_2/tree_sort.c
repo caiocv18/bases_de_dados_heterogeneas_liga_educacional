@@ -55,7 +55,7 @@ void treeSort(int arr[], int n) {
     inorder(root);
 }
 
-int main() {
+int main_tree_sort() {
     int arr[] = {5, 4, 7, 2, 11};
     int n = sizeof(arr)/sizeof(arr[0]);
 
