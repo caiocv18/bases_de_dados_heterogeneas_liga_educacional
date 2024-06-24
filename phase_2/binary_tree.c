@@ -84,7 +84,7 @@ void imprimirEmOrdem_binary_tree(node* raiz) {
     }
 }
 
-int main() {
+int main_binary_tree() {
     node* raiz = NULL; // Inicializa a raiz da árvore como NULL
 
     // Inserindo valores na árvore
