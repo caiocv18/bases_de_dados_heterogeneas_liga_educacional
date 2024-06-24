@@ -51,7 +51,7 @@ void print_array_counting_sort(int array[], int size) {
 }
 
 // Programa principal para testar a função acima
-int main() {
+int main_counting_sort() {
     int array[] = {4, 2, 2, 8, 3, 3, 1};
     int n = sizeof(array) / sizeof(array[0]);
     counting_sort(array, n);
