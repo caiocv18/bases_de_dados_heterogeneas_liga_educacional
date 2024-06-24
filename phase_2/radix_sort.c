@@ -54,7 +54,7 @@ void print_radix_sort(int arr[], int n) {
 }
 
 // Programa principal para testar a função acima
-int main() {
+int main_radix_sort() {
     int arr[] = {170, 45, 75, 90, 802, 24, 2, 66};
     int n = sizeof(arr)/sizeof(arr[0]);
     radixsort(arr, n);
