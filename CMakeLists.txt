@@ -55,4 +55,5 @@ add_executable(bases_de_dados_heterogeneas_liga_educacional syntax/main.c
         phase_2/tim_sort.c
         phase_2/counting_sort.c
         phase_2/bucket_sort.c
+        phase_2/radix_sort.c
 )

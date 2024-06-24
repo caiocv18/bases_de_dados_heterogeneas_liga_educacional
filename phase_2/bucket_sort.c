@@ -91,7 +91,7 @@ void printArray_bucket_sort(int* arr, int size) {
     printf("\n");
 }
 
-int main() {
+int main_bucket_sort() {
     int arr[] = {29, 25, 3, 49, 9, 37, 21, 43};
     int size = sizeof(arr) / sizeof(arr[0]);
 
