@@ -119,7 +119,7 @@ int dequeuePriority(PriorityQueue* queue) {
 }
 
 // Função principal para testar operações avançadas em filas
-int main() {
+int main_advanced_queue() {
     CircularQueue *circularQueue = createCircularQueue(5);
 
     enqueueCircular(circularQueue, 10);
