@@ -58,4 +58,5 @@ add_executable(bases_de_dados_heterogeneas_liga_educacional syntax/main.c
         phase_2/radix_sort.c
         phase_2/tree_sort.c
         phase_2/binary_tree.c
+        phase_2/avl_tree.c
 )
