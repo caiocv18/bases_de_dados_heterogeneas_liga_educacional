@@ -60,4 +60,5 @@ add_executable(bases_de_dados_heterogeneas_liga_educacional syntax/main.c
         phase_2/binary_tree.c
         phase_2/avl_tree.c
         phase_2/dynamic_array_resizing.c
+        phase_2/stack_postfix_infix.c
 )

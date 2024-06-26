@@ -36,7 +36,7 @@ void removeElement(int **array, int *size, int *capacity) {
 }
 
 // Função principal para testar o redimensionamento dinâmico
-int main() {
+int main_dynamic_array_resizing() {
     int *array = NULL;
     int size = 0;     // Número atual de elementos no array
     int capacity = 1; // Capacidade atual do array
