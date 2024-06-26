@@ -143,7 +143,7 @@ int evaluatePostfix(char *postfix) {
 }
 
 // Função principal para testar operações avançadas em pilhas
-int main() {
+int main_stack_postfix_infix() {
     char infix[] = "3+(2*2)-(2/1)";
     char postfix[100];
 
