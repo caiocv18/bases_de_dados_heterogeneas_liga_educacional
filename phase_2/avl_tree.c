@@ -218,7 +218,7 @@ void imprimirEmOrdem(Node* raiz) {
     }
 }
 
-int main() {
+int main_avl_tree() {
     Node* raiz = NULL;
 
     // Inserindo valores na árvore AVL
