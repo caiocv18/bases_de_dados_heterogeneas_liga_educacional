@@ -49,7 +49,7 @@ void distribute_data(const char *command, int id, const char *data) {
     }
 }
 
-int main() {
+int main_distributed_system() {
     for (int i = 0; i < NUM_NODES; i++) {
         pthread_mutex_init(&lock[i], NULL);
     }
